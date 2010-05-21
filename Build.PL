@@ -11,6 +11,7 @@ my $builder = Module::Build->new(
   requires          => {
     'YAML'                                     => 0,
     'JSON'                                     => 0,
+    'DateTime'                                 => 0,
     'Net::SSLeay'                              => 0,
     'WWW::Mechanize'                           => 0,
     'Moose'                                    => 0,
