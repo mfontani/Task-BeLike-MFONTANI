@@ -17,6 +17,7 @@ my $builder = Module::Build->new(
     'Moose'                                    => 0,
     'Any::Moose'                               => 0,
     'App::Ack'                                 => 0,
+    'App::Cmd'                                 => 0,
     'DBD::SQLite'                              => 0,
     'ORLite'                                   => 0,
     'File::Slurp'                              => 0,
