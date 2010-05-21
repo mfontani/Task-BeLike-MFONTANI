@@ -19,6 +19,7 @@ my $builder = Module::Build->new(
     'App::Ack'                                 => 0,
     'App::Cmd'                                 => 0,
     'DBD::SQLite'                              => 0,
+    'DBD::mysql'                               => 0,
     'ORLite'                                   => 0,
     'File::Slurp'                              => 0,
     'FCGI'                                     => 0,
