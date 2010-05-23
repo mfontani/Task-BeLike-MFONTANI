@@ -56,6 +56,7 @@ my $builder = Module::Build->new(
     'Devel::Cover'                             => 0,
     'Devel::REPL'                              => 0,
     'Vimana'                                   => 0,
+    'Net::XMPP'                                => 0,
   },
   add_to_cleanup     => ['Task-BeLike-MFONTANI-*'],
   create_makefile_pl => 'traditional',
