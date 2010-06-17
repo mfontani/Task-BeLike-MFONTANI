@@ -12,6 +12,8 @@ my $builder = Module::Build->new(
     'YAML'                                     => 0,
     'JSON'                                     => 0,
     'DateTime'                                 => 0,
+    'Net::SSLeay'                              => 0, # needs libssl-dev in Ubuntu
+    'IO::Socket::SSL'                          => 0,
     'WWW::Mechanize'                           => 0,
     'Moose'                                    => 0,
     'Any::Moose'                               => 0,
@@ -57,6 +59,7 @@ my $builder = Module::Build->new(
     'Devel::REPL'                              => 0,
     'Vimana'                                   => 0,
     'Net::XMPP'                                => 0,
+    'Net::Delicious'                           => 0,
   },
   add_to_cleanup     => ['Task-BeLike-MFONTANI-*'],
   create_makefile_pl => 'traditional',
